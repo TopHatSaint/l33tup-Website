@@ -1,0 +1,51 @@
+.coloredDiv{
+  background-color: #2992A5;
+  border-radius: 15px;
+  height: 100%;
+
+}
+.introSection{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #5cc4d6;
+  height: 11vh;
+  margin: auto;
+  border-radius: 25px;
+  font-family: $QS;
+  min-height: 280px;
+}
+#inspiration{
+  margin-top: 2%;
+}
+//
+#callToAction{
+  border-radius: 12px;
+  // display: flex;
+  // align-items: center;
+  margin-bottom: 15px;
+  font-size: 17px;
+}
+.background{
+  background-color:#708090;
+  height: 100vh;
+}
+.l33tup{
+  color: lime;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Roboto Mono', monospace;
+}
+.secondBanner{
+  color: silver;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: 'Roboto Mono', monospace;
+}

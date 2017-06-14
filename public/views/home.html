@@ -1,0 +1,20 @@
+<section>
+<div class="coloredDiv">
+  <nav-bar></nav-bar>
+    <div class="introSection">
+    <p id="inspiration">  Writing down your dreams, goals, and business ideas helps you brainstorm on a more ambitious scale.
+
+  There’s nothing quite like writing down a startup idea in the middle of a blank page and then branching out with a flurry of ideas.
+
+  Plus, writing down your thoughts gives you a chance to explore dreams that you may not wish to share with others. It also affords you a physical space to keep track of those thoughts, and return to them later if needed. </p>
+    <!-- <button id="callToAction" type="button"class="button expanded ">Create those Ideas</button> -->
+    <div>SEARCH : <input class="" placeholder="Search Ideas!" ng-model="ideaFilter"> </div>
+    </div>
+
+  <div class="displayIdeas">
+  </div>
+
+  <idea-dir ng-repeat="idea in ideas | filter: ideaFilter " idea = "idea"   ></idea-dir>
+
+</div>
+</section>

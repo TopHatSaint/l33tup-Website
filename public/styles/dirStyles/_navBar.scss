@@ -1,0 +1,24 @@
+.navWrapper{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color:black;
+  height: 75px;
+  border-radius: 15px;
+  background-color: white;
+  font-family: $QS;
+  font-size: 19px
+}
+.marginRight{
+  margin:auto;
+}
+.IdeaFont{
+  font-size: 24px;
+  font-weight: bolder;
+}
+.modulTweaks{
+  text-align: center;
+  color: 	#404040 ;
+}

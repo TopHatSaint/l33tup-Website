@@ -1,0 +1,24 @@
+<nav-bar></nav-bar>
+<section class="createWrap">
+  <div class="createInnerWrap">
+    <form  id="createIdea" ng-submit="">
+        <div class="row">
+            <h5 class="modulTweaks">Create Your Idea!</h5>
+            <div class="small-12 columns">
+                <label>Title Name
+          <input class="titleInput" type="text" ng-model='thought.title' placeholder="Title" required>
+        </label>
+            </div>
+            <div class="small-12 columns">
+                <label>
+      Get those ideas down and get back to being focused!
+      <textarea class="textArea" ng-model='thought.idea' placeholder="What's on your mind?"></textarea>
+      </label>
+            </div>
+        <div class="small-12 columns" >
+          <button type="submit" class="button primary expanded" data-close ng-click="createIdeas(); " >Post Idea</button>
+        </div>
+        </div>
+    </form>
+  </div>
+</section>

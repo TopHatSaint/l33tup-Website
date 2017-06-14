@@ -1,0 +1,21 @@
+.createWrap{
+  height:100vh;
+  width: 100%;
+  border-radius: 15px;
+  background-color:  #2992A5;
+}
+.createInnerWrap{
+  margin-top: 25px;
+  width: 85%;
+  background-color: white;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  margin: auto;
+}
+.titleInput{
+  border-radius: 15px;
+}
+.textArea{
+  height: 300px;
+  border-radius: 15px;
+}
