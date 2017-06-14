@@ -2,7 +2,7 @@
   "name": "l33tup",
   "version": "1.0.0",
   "description": "full stack application",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "prestart":"npm install",
     "start":"node ./server/index.js",
