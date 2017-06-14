@@ -43,7 +43,7 @@ dbSetup.run();
  app.delete('/api/table/:id', tableController.delete);
  // LISTEN
  // ============================================================
- var port = config.PORT;
+ var port = var port = process.env.PORT || config.PORT;;
  app.listen(port, function() {
    console.log('listening on port ', port);
  });
