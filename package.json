@@ -2,10 +2,10 @@
   "name": "l33tup",
   "version": "1.0.0",
   "description": "full stack application",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "prestart":"npm install",
-    "start":"nodemon ./server/index.js && gulp default",
+    "start":"nodemon ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
