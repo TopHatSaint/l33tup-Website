@@ -44,6 +44,6 @@ dbSetup.run();
  // LISTEN
  // ============================================================
  var port = process.env.PORT || config.PORT;
- app.listen(process.env.PORT, function() {
+ app.listen(port, function() {
    console.log('listening on port ', port);
  });
