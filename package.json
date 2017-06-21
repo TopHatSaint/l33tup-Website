@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prestart":"npm install",
-    "start":"node ./server/index.j && gulp default",
+    "start":"node ./server/index.js && gulp default",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
