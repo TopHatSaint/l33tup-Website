@@ -4,13 +4,13 @@
   "description": "full stack application",
   "main": "gulpfile.js",
   "scripts": {
-    "prestart":"npm install",
+    "prestart":"npm install && npm install -g nodemon",
     "start":"node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TopHatSaint/FullStackFinal.git"
+    "url":
   },
   "author": "Gabriel Lang",
   "license": "ISC",
