@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url":
+    "url": "git+https://github.com/TopHatSaint/FullStackFinal.git"
   },
   "author": "Gabriel Lang",
   "license": "ISC",
