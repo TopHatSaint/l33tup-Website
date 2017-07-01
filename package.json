@@ -4,13 +4,13 @@
   "description": "full stack application",
   "main": "gulpfile.js",
   "scripts": {
-    "prestart":"npm install && npm i",
+    "prestart":"npm install",
     "start":"node ./server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    
+    "url":
   },
   "author": "Gabriel Lang",
   "license": "ISC",
